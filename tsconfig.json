@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es5", "es6", "dom"],
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "outDir": "./dist",
+    "strict": true,
+    "baseUrl": ".",
+    "preserveSymlinks": true,
+    "esModuleInterop": true,
+  },
+  "include": ["src", "test"],
+  "exclude": ["node_modules", "dist"]
+}
